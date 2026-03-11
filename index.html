@@ -6,6 +6,28 @@
     <title>Unity Web Player | Sorteo</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
+    <style>
+      body { 
+        margin: 0; 
+        padding: 0; 
+        overflow: hidden; 
+        background-color: #000000; /* Fondo negro */
+      }
+      #unity-container { 
+        width: 100vw !important; 
+        height: 100vh !important; 
+        position: absolute; 
+        top: 0; 
+        left: 0; 
+      }
+      #unity-canvas { 
+        width: 100% !important; 
+        height: 100% !important; 
+      }
+      #unity-footer { 
+        display: none !important; /* Oculta el pie de página de Unity */
+      }
+    </style>
   </head>
   <body>
     <div id="unity-container" class="unity-desktop">
